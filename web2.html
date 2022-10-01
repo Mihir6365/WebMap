@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebMap</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="public/style.css">
+    <script src="/public/main.js"></script>
+    <script src="/public/script.js"></script>
+</head>
+
+<body style="overflow-x: hidden;">
+    <button class="download"><a target="_blank" href="/web2/download"> Download PDF</a></button>
+
+    <img class="imgBg" src="public/bg1.png" alt="">
+    <img class="imgBg" id="c6" src="public/computer (6).png" alt="">
+    <img class="imgBg" id="c11" src="public/computer (11).png" alt="">
+    <img class="imgBg" id="c12" src="public/computer (12).png" alt="">
+    <img class="imgBg" id="c8" src="public/computer (8).png" alt="">
+    <div class="main">
+        <h3 class="heading">WEB 2.0 Timeline</h3>
+        <div class="container">
+            <div class="popup" id="WebFunda">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <h1 class="title">Web Fundamentals</h1>
+                    <p>Web development is a specific field of software engineering that focuses on building web pages. Web pages, or web apps, are codebases that are downloaded and run in our web browser (e.g., Google Chrome) each time a user navigates to
+                        the website address.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href=" https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">Getting
+                        started with the web</a><br>
+                    <a target="blank" href="https://codedamn.com/learn/http-fundamentals">Codedamn free course on Web
+                        fundamentals</a><br>
+                    <a target="blank" href=" https://docs.microsoft.com/en-us/learn/paths/web-development-101/">Web
+                        Development for Beginners</a><br>
+                    <a target="blank" href=" https://web.dev/">Web Fundamentals by Google Developers</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://www.youtube.com/watch?v=t3xrHaqX2tc">Web Fundamentals by oracle
+                        developers</a><br>
+                    <a target="blank" href="https://youtu.be/hJHvdBlSxug">How The Web Works - The Big Picture</a>
+                    <span class="tools">
+                        <button  id="button1" onclick="myFunction(id)" class="done">Mark As Done</button>
+                       
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="Git">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                    <h1 class="title">Using Git to Collaborate</h1>
+                    <p>Collaboration is the way different people can work on the same project together. It is like creating a group in GitHub just like Groups in other social media. The people added to the collaborator’s list can be able to push, merge,
+                        and do other kinds of similar things on the project. </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href=" https://git-scm.com/doc">Refrence and documentation on Git by Git</a><br>
+                    <a target="blank" href="https://www.atlassian.com/git">Learning Git right by Atlassian</a><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/apGV9Kg7ics">Git and Github by Kunal</a><br>
+                    <a target="blank" href="https://youtu.be/evknSAkUIvs">Git by Code with harry</a><br>
+                    <a target="blank" href="https://youtu.be/RGOj5yH7evk">Git by edureka</a>
+                    <span class="tools">
+                        <button  id="button2" onclick="myFunction(id)" class="done">Mark As Done</button>
+                        
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="UserEX">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                    <h1 class="title">Intro to UX</h1>
+                    <p>User Experience design is design that is user centered. The goal is to design artifacts that allow the users to meet their needs in the most effective efficient and satisfying manner. </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href=" https://www.interaction-design.org/literature/topics/ux-design">Intro to
+                        UX</a><br>
+                    <a target="blank" href="https://careerfoundry.com/en/blog/ux-design/what-is-user-experience-ux-design-everything-you-need-to-know-to-get-started/">All
+                        about UX by carrerfoundry</a><br>
+                    <a target="blank" href="https://www.geeksforgeeks.org/user-experience-or-ux-design/?ref=gcse">Basics
+                        of UX by GFG</a><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/2QQQtiFwXjU">Foundation of UX By Google Career
+                        Certificates</a><br>
+                    <a target="blank" href="https://youtu.be/uL2ZB7XXIgg">UX course for beginners</a>
+                    <span class="tools">
+                        <button  id="button3" onclick="myFunction(id)" class="done">Mark As Done</button>
+                       
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="DesignBasic">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup5()">&times;</div>
+                    <h1 class="title">Web Design Basics</h1>
+                    <p>Understanding web design basics can help boost your brand or business’s reputation by building credibility and establishing trust with your visitors. Though there are many aspects of web design to consider, we will cover some of the
+                        web design basics you’ll need to get started on your website.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href=" https://webflow.com/blog/web-design-for-beginners">Basics of Web design by
+                        Webflow</a><br>
+                    <a target="blank" href=" https://xd.adobe.com/ideas/principles/web-design/what-is-web-design-basics/">Basics of
+                        Web design by Webflow</a><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/C72WkcUZvco">Web Design by Flux Academy</a><br>
+                    <a target="blank" href="https://youtu.be/FK4YusHIIj0">Web Design and Figma</a>
+                    <span class="tools">
+                        <button  id="button4" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                       
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="VisDes">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup6()">&times;</div>
+                    <h1 class="title">Elements of Visual Design </h1>
+                    <p>Visual design focuses on the aesthetics of a site and its related materials by strategically implementing images, colors, fonts, and other elements. A successful visual design does not take away from the content on the page or function.
+                        Instead, it enhances it by engaging users and helping to build trust and interest in the brand.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.johnlovett.com/design-overview">Design Overview by John
+                        Ovett</a><br>
+                    <a target="blank" href="https://www.usability.gov/what-and-why/visual-design.html">Visual Design
+                        Basics</a><br>
+                    <a target="blank" href="https://www.flux-academy.com/blog/the-visual-design-elements-and-principles-that-make-good-design">Visual
+                        Design by flux academy</a><br>
+                    <!-- <span class="popupRW">WATCH</span><br> -->
+                    <!-- <a target="blank" href="https://www.youtube.com/watch?v=t3xrHaqX2tc">Web Fundamentals by oracle
+                        developers</a><br>
+                    <a target="blank" href="https://youtu.be/hJHvdBlSxug">How The Web Works - The Big Picture</a> -->
+                    <span class="tools">
+                        <button  id="button5" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                     
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="popup" id="html5">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                    <h1 class="title">HTML5</h1>
+                    <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium recommendation.
+                    </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href=" https://developer.mozilla.org/en-US/docs/Glossary/HTML5">MDN Docs</a><br>
+                    <a target="blank" href="https://www.w3schools.com/html/">HTML by W3 Schools</a><br>
+                    <a target="blank" href="https://www.javatpoint.com/html5-tutorial">HTML by javapoint</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/kUMe1FH4CHE">FreeCodeCamp</a><br>
+                    <a target="blank" href="https://youtu.be/BsDoLVMnmZs">Code with Harry (Hindi)</a>
+                    <span class="tools">
+                        <button  id="button6" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                       
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="css3">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup8()">&times;</div>
+                    <h1 class="title">CSS3</h1>
+                    <p>Cascading Style Sheets (CSS) is a language that is used to illustrate the look, style, and format of a document written in any markup language. In simple words, it is used to style and organize the layout of Web pages. CSS3 is the
+                        latest version of an earlier CSS version, CSS2.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"> MDN docs</a><br>
+                    <a target="blank" href=" https://www.w3schools.com/css/">CSS by W3 schools</a><br>
+                    <a target="blank" href="https://css-tricks.com/">CSS tricks</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/1Rs2ND1ryYc"> CSS tutorial</a><br>
+                    <a target="blank" href="https://youtu.be/yfoY53QXEnI">CSS for beginners</a><br>
+                    <span class="tools">
+                        <button  id="button7" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                      
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="jsjq">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup9()">&times;</div>
+                    <h1 class="title">JavaScript & Jquery</h1>
+                    <p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web. jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event
+                        handling, CSS animation, and Ajax.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.javascript.com/">Javascript by JS</a><br>
+                    <a target="blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JS by mdn </a><br>
+                    <a target="blank" href="https://jquery.com/">Jquery by jquery</a><br>
+                    <a target="blank" href="https://www.javatpoint.com/jquery-tutorial"> Jquery by javapoint</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/jS4aFq5-91M">JS by freecodecamp</a><br>
+                    <a target="blank" href=" https://youtu.be/cvvwkgp4HBg">JS by Code with harry (Hindi)</a>
+                    <a target="blank" href="https://youtu.be/hMxGhHNOkCU">Jquery tutorial by LearnCode academy</a>
+                    <span class="tools">
+                        <button  id="button8" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                       
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="boots">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup10()">&times;</div>
+                    <h1 class="title">BootStrap</h1>
+                    <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">W3 Schools</a><br>
+                    <a target="blank" href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Getbootstrap</a><br>
+                    <a target="blank" href="https://github.com/twbs/bootstrap">GitHub Repository</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/vpAJ0s5S2t0">Bootstrap by Code with Harry</a><br>
+                    <a target="blank" href="https://youtu.be/-qfEOE4vtxE">FreeCodeCamp</a>
+                    <span class="tools">
+                        <button id="button9" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                   
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="saas">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup11()">&times;</div>
+                    <h1 class="title">SASS Preprocessing</h1>
+                    <p>Software as a service (SaaS) is a software distribution model in which a cloud provider hosts applications and makes them available to end users over the internet. In this model, an independent software vendor (ISV) may contract a
+                        third-party cloud provider to host the application.
+                    </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://sass-lang.com/">SASS</a><br>
+                    <a target="blank" href=" https://github.com/sass/sass"> Github Repo</a><br>
+                    <a target="blank" href="https://www.npmjs.com/package/sass">NPM SASS</a><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/_a5j7KoflTs">SASS for beginners </a><br>
+                    <a target="blank" href="https://youtu.be/Zz6eOVaaelI">SASS by DevEd</a>
+                    <span class="tools">
+                        <button  id="button10" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                      
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="popup" id="ang">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup12()">&times;</div>
+                    <h1 class="title">Angular JS</h1>
+                    <p>AngularJS was a JavaScript-based open-source front-end web framework for developing single-page applications. It was maintained mainly by Google and a community of individuals and corporations.
+                    </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://github.com/angular/angular">Github repopitory</a><br>
+                    <a target="blank" href="https://angular.io/">By Angular</a><br>
+                    <a target="blank" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Clientside_JavaScript_frameworks/Angular_getting_started">
+                        MDN Docs</a><br>
+                    <a target="blank" href=" https://www.w3schools.com/angular/">W3 Schools</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/0eWrpsCLMJQ"> Angular tutorial by codevolution</a><br>
+                    <a target="blank" href="https://youtu.be/i9MHigUZKEM">Angular JS fundamentals</a><br>
+                    <span class="tools">
+                        <button  id="button11" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                 
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="emb">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup13()">&times;</div>
+                    <h1 class="title">Ember JS</h1>
+                    <p>Ember.js is an open-source JavaScript web framework, utilizing a component-service pattern. It allows developers to create scalable single-page web applications by incorporating common idioms, best practices, and patterns from other
+                        single-page-app ecosystem patterns into the framework.
+                    </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://emberjs.com/"> Ember JS</a><br>
+                    <a target="blank" href=" https://github.com/emberjs">Github repopitory</a><br>
+                    <a target="blank" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Ember_getting_started">MDN
+                        Docs</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/jS4aFq5-91M">JS by freecodecamp</a><br>
+                    <a target="blank" href="https://youtu.be/qA0LDdgHTmU">Ember js by CodeLogical</a>
+                    <a target="blank" href=" https://youtu.be/eQUvN9Ujs1s">Ember by Shawn C</a>
+                    <span class="tools">
+                        <button id="button12" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                      
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="rea">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup14()">&times;</div>
+                    <h1 class="title">React JS </h1>
+                    <p>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
+                    </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://reactjs.org/"> React JS</a><br>
+                    <a target="blank" href="https://github.com/facebook/react">Github Repository</a><br>
+                    <a target="blank" href="https://www.javatpoint.com/reactjs-tutorial">React by Javapoint</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/QFaFIcGhPoM">React by codevaluation</a><br>
+                    <a target="blank" href="https://youtu.be/Ke90Tje7VS0">React for beginners</a><br>
+                    <a target="blank" href="https://youtu.be/-mJFZp84TIY">React by Code with Harry (Hindi)</a>
+                    <span class="tools">
+                        <button  id="button13" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                      
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="vue">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup15()">&times;</div>
+                    <h1 class="title">Vue JS</h1>
+                    <p>Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://vuejs.org/"> Vue JS</a><br>
+                    <a target="blank" href="https://github.com/vuejs/vue"> Github Repository</a><br>
+                    <a target="blank" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started">MDN
+                        Docs</a><br>
+                    <a target="blank" href="https://www.w3schools.com/whatis/whatis_vue.asp">W3 schools</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/4deVCNJq3qc">Vue for beginners</a><br>
+                    <a target="blank" href="https://youtu.be/Wy9q22isx3U">Vue Crash Course</a>
+                    <span class="tools">
+                        <button  id="button14" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                     
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="popup" id="php">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup16()">&times;</div>
+                    <h1 class="title">PHP</h1>
+                    <p>PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href=" https://www.php.net/">PHP by php</a><br>
+                    <a target="blank" href=" https://www.javatpoint.com/php-tutorial">PHP from javapoint</a><br>
+                    <a target="blank" href="https://codecourse.com/subjects/php">Php by codecourse</a><br>
+                    <a target="blank" href="https://www.killerphp.com/">Video tutorial on php by killer PHP</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/OK_JCtrrv-c"> PHP by freeCodeCamp</a><br>
+                    <a target="blank" href="https://youtu.be/i9MHigUZKEM"> PHP with MySql (Hindi)</a><br>
+                    <span class="tools">
+                        <button  id="button15" onclick="myFunction(id)" class="done">Mark As Done</button>
+                    
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="py">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup17()">&times;</div>
+                    <h1 class="title">PYTHON</h1>
+                    <p>Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.python.org/"> Python by Python.org</a><br>
+                    <a target="blank" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">Django
+                        for server side or backend</a><br>
+                    <a target="blank" href="https://github.com/django/django"> Github Repository</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/rfscVS0vtbw">Python for beginners</a><br>
+                    <a target="blank" href=" https://youtu.be/UmljXZIypDc">Django by Corey Schafer</a>
+                    <span class="tools">
+                        <button  id="button16" onclick="myFunction(id)" class="done">Mark As Done</button>
+                      
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="ruby">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup18()">&times;</div>
+                    <h1 class="title">Ruby</h1>
+                    <p>Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity.
+                    </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.ruby-lang.org/en/">Ruby Programming Language</a><br>
+                    <a target="blank" href="https://www.tutorialspoint.com/ruby/ruby_overview.htm">Ruby -
+                        Overview</a><br>
+                    <a target="blank" href="https://github.com/ruby/ruby">GitHub repopitory</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/t_ispmWmdjY">Ruby by freeCodeCamp</a><br>
+                    <a target="blank" href="https://youtu.be/ml5sNqftiK4">Ruby Tutorial For Beginners</a><br>
+                    <span class="tools">
+                        <button  id="button17" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                      
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="java">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup19()">&times;</div>
+                    <h1 class="title">JAVA</h1>
+                    <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://dev.java/">Java</a><br>
+                    <a target="blank" href="https://www.javatpoint.com/java-tutorial"> Java by javapoint</a><br>
+                    <a target="blank" href="https://hackr.io/blog/java-frameworks">Java frameworks from backend</a><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/rZ41y93P2Qo">Java course by kunal kushwaha</a><br>
+                    <span class="tools">
+                        <button  id="button18" onclick="myFunction(id)" class="done">Mark As Done</button>
+                     
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="nodejs">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup20()">&times;</div>
+                    <h1 class="title">Node JS</h1>
+                    <p>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://nodejs.org/en/docs/guides/">Node from node org</a><br>
+                    <a target="blank" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">Express for
+                        node</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href=" https://youtu.be/TlB_eWDSMt4"> Node from mosh</a><br>
+                    <a target="blank" href="https://youtu.be/Oe421EPjeBE"> Node from mosh</a><br>
+                    <a target="blank" href="https://youtu.be/fbYExfeFsI0"> Node js and MongoDB with CRUD ops</a>
+                    <span class="tools">
+                        <button  id="button19" onclick="myFunction(id)" class="done">Mark As Done</button>
+                    
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="popup" id="mysql">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup21()">&times;</div>
+                    <h1 class="title">MySQL</h1>
+                    <p>MySQL is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.mysql.com/"> MySql</a><br>
+                    <a target="blank" href="https://www.w3schools.com/mySQl/default.asp">MySql tut from W3
+                        schools</a><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/HXV3zeQKqGY">Sql and Mysql from freeCodeCamp</a><br>
+                    <a target="blank" href="https://youtu.be/7S_tz1z_5bA">Mysql from Mosh</a>
+                    <span class="tools">
+                        <button  id="button20" onclick="myFunction(id)" class="done">Mark As Done</button>
+                   
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="mongo">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup22()">&times;</div>
+                    <h1 class="title">MongoDB</h1>
+                    <p>MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.mongodb.com/atlas">MongoDb atlas</a><br>
+                    <a target="blank" href="https://www.mongodb.com/products/compass">MongoDb compass</a><br>
+                    <a target="blank" href=" https://www.mongodb.com/docs/">MongoDb docs</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/oSIv-E60NiU"> MongoDb by code with harry</a><br>
+                    <a target="blank" href="https://youtu.be/3GHZd0zv170"> MongoDb Data modelling</a><br>
+                    <span class="tools">
+                        <button  id="button21" onclick="myFunction(id)" class="done">Mark As Done</button>
+                     
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="sqlite">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup23()">&times;</div>
+                    <h1 class="title">SQlite </h1>
+                    <p>SQLite is a database engine written in the C language. It is not a standalone app; rather, it is a library that software developers embed in their apps. As such, it belongs to the family of embedded databases. </p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href=" https://www.sqlite.org/docs.html">SQlite docs</a><br>
+                    <a target="blank" href="https://www.tutorialspoint.com/sqlite/sqlite_overview.htm">SQlite from
+                        tutorial point</a><br>
+                    <a target="blank" href="https://developer.android.com/training/data-storage/sqlite"> SQlite for
+                        android dev</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/byHcYRpMgI4"> SQlite for android dev</a><br>
+                    <a target="blank" href="https://youtu.be/312RhjfetP8">Using sqlite for android developers</a>
+                    <span class="tools">
+                        <button  id="button22" onclick="myFunction(id)"  class="done">Mark As Done</button>
+                
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="apache">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup24()">&times;</div>
+                    <h1 class="title">Apache Ignite</h1>
+                    <p>Apache Ignite is a distributed database management system for high-performance computing. Apache Ignite's database utilizes RAM as the default storage and processing tier, thus, belonging to the class of in-memory computing platforms.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://ignite.apache.org/docs/latest/">Apache ignite docs</a><br>
+                    <a target="blank" href="https://github.com/apache/ignite">Github Repository</a><br>
+                    <a target="blank" href="https://www.baeldung.com/apache-ignite"> A Guide to Apache
+                        Ignite</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/eMs_2vEsbBk">Getting started with apache ignite
+                        tutorial</a><br>
+                    <a target="blank" href="https://youtu.be/uRdSKhFqeaU">Apache through examples</a><br>
+                    <span class="tools">
+                        <button  id="button23" onclick="myFunction(id)" class="done">Mark As Done</button>
+               
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="server">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup25()">&times;</div>
+                    <h1 class="title">Microsoft SQL Server</h1>
+                    <p>Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.microsoft.com/en-in/sql-server/sql-server-downloads">Microsoft
+                        Web</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/-EPMOaV7h_Q">server for beginners</a><br>
+                    <span class="tools">
+                        <button  id="button24" onclick="myFunction(id)"  class="done">Mark As Done</button>
+         
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="oracle">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup26()">&times;</div>
+                    <h1 class="title">Oracle</h1>
+                    <p>Oracle Corporation is an American multinational computer technology corporation headquartered in Austin, Texas. In 2020, Oracle was the third-largest software company in the world by revenue and market capitalization</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.oracle.com/in/database/">Know about oracle</a><br>
+                    <a target="blank" href="https://docs.oracle.com/cd/B19306_01/server.102/b14220/intro.htm"> Oracle
+                        docs</a><br>
+                    <a target="blank" href="https://www.javatpoint.com/what-is-oracle">Oracle by javapoint</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href=" https://youtu.be/ObbNGhcxXJA">Oracle sql tutorial</a><br>
+                    <span class="tools">
+                        <button  id="button25" onclick="myFunction(id)" class="done">Mark As Done</button>
+             
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="popup" id="netBasics">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup27()">&times;</div>
+                    <h1 class="title"> Basics of Networking</h1>
+                    <p>Image result for Basics of Networking Computer networks can also include multiple devices/mediums which help in the communication between two different devices; these are known as Network devices.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.ibm.com/cloud/learn/networking-a-complete-guide">Networking by
+                        IBM</a><br>
+                    <a target="blank" href="https://www.javatpoint.com/computer-network-tutorial">Networking in
+                        depth</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/IPvYjXCsTg8">Networking by Kunal</a><br>
+                    <a target="blank" href="https://youtu.be/L3ZzkOTDins">Networking by Geeky Hub</a><br>
+                    <span class="tools">
+                        <button  id="button26" onclick="myFunction(id)"  class="done">Mark As Done</button>
+              
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="host">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup28()">&times;</div>
+                    <h1 class="title">Hosting/Server Administration</h1>
+                    <p>Server hosting is an IT service, typically offered by a cloud service provider, that provides remote access to off-premises virtual or physical servers and associated resources for a monthly subscription or usage-based price.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.educba.com/what-is-web-hosting/">What is hosting</a><br><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href="https://youtu.be/BDdACdrs1vE"> Web hosting video tutorial</a><br>
+                    <a target="blank" href="https://youtu.be/ITe8OsJRgeM"> How to buy a server</a><br>
+                    <span class="tools">
+                        <button  id="button27" onclick="myFunction(id)" class="done">Mark As Done</button>
+              
+                    </span>
+                </div>
+            </div>
+            <div class="popup" id="cyber">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup29()">&times;</div>
+                    <h1 class="title">Basics of Cyber Security</h1>
+                    <p>Steps to take to protect against an attack and limit the damage if one occurs. Monitor your computers for unauthorized personnel access, devices (like USB drives), and software. Check your network for unauthorized users or connections.
+                        Investigate any unusual activities on your network or by your staff.</p>
+                    <span class="popupRW">READ</span><br>
+                    <a target="blank" href="https://www.techtarget.com/searchsecurity/definition/cybersecurity">What is
+                        cyber security</a><br>
+                    <span class="popupRW">WATCH</span><br>
+                    <a target="blank" href=" https://youtu.be/yr1Psapupsc">Cyber security full course</a><br>
+                    <span class="tools">
+                        <button  id="button28" onclick="myFunction(id)"  class="done">Mark As Done</button>
+               
+                    </span>
+                </div>
+            </div>
+
+
+            <ul>
+                <li>
+                    <h3 class="title">Web Development Basics</h3>
+                    <button class="info" onclick="togglePopup()">
+                        Web Fundamentals
+                    </button> <br>
+                    <button class="info" onclick="togglePopup3()">
+                        Using Git to Collaborate
+                    </button> <br>
+                    <button class="info" onclick="togglePopup4()">Intro to User Experience (UX) </button><br>
+                    <button class="info" onclick="togglePopup5()">Web Design Basics </button><br>
+                    <button class="info" onclick="togglePopup6()">Elements of Visual Design </button><br>
+                    <a target="blank" href="https://www.google.com/search?q=what+is+Web+Development+Basics&sxsrf=ALiCzsY7F4d5_efbvjR4JpfhUcxcZPqjNw%3A1656221855198&ei=n_C3YqzoC_TXz7sP9fOtiAw&ved=0ahUKEwjss-Sas8r4AhX063MBHfV5C8EQ4dUDCA4&uact=5&oq=what+is+Web+Development+Basics&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMggIIRAeEBYQHToHCAAQRxCwAzoHCAAQsAMQQzoKCAAQ5AIQsAMYAToMCC4QyAMQsAMQQxgCOg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQ_QRY_QRgqw5oAXABeACAAaoBiAGqAZIBAzAuMZgBAKABAqABAcgBEcABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 1</span>
+                </li>
+                <li>
+                    <h3 class="title">Basic FrontEnd</h3>
+                    <button class="info" onclick="togglePopup7()"> HTML5
+                    </button><br>
+                    <button class="info" onclick="togglePopup8()"> CSS3
+                    </button><br>
+                    <button class="info" onclick="togglePopup9()"> JavaScript
+                        & Jquery </button><br>
+                    <button class="info" onclick="togglePopup10()"> BootStrap
+                    </button><br>
+                    <button class="info" onclick="togglePopup11()"> SASS
+                        Preprocessing </button><br>
+                    <a target="blank" href="https://www.google.com/search?q=Basic+FrontEnd&sxsrf=ALiCzsYLjqM29MdPvg4no9OzCcnGGen7hg%3A1656222187169&ei=6_G3YuXsCeLiz7sPgpavuA8&ved=0ahUKEwiljoq5tMr4AhVi8XMBHQLLC_cQ4dUDCA4&uact=5&oq=Basic+FrontEnd&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIICAAQHhAWEAoyCAgAEB4QFhAKMggIABAeEA8QFjIGCAAQHhAWMgYIABAeEBYyCAgAEB4QFhAKMgYIABAeEBYyBggAEB4QFjoHCAAQRxCwA0oECEEYAEoECEYYAFC3BVi3BWDxB2gBcAF4AIABpwGIAacBkgEDMC4xmAEAoAECoAEByAEIwAEB&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 2</span>
+                </li>
+                <li>
+                    <h3 class="title">Advanced FrontEnd</h3>
+                    <button class="info" onclick="togglePopup12()">Angular JS </button><br>
+                    <button class="info" onclick="togglePopup13()">Ember JS </button><br>
+                    <button class="info" onclick="togglePopup14()">React JS </button><br>
+                    <button class="info" onclick="togglePopup15()">Vue JS </button><br>
+                    <a target="blank" href="https://www.google.com/search?q=Advanced+FrontEnd&sxsrf=ALiCzsZJ1cX9PGlxOo7-wj9O-vw1X4sdIA%3A1656222295633&ei=V_K3YvOcJqLPseMPldG_6AE&ved=0ahUKEwizpObstMr4AhWiZ2wGHZXoDx0Q4dUDCA4&uact=5&oq=Advanced+FrontEnd&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEBYyCAgAEB4QFhAKMgYIABAeEBY6BwgAEEcQsAM6CggAEEcQsAMQyQM6CAgAEJIDELADOgoIABDkAhCwAxgBSgQIQRgASgQIRhgBUJgJWJgJYLULaAFwAXgAgAF6iAF6kgEDMC4xmAEAoAECoAEByAEOwAEB2gEGCAEQARgJ&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 3</span>
+                </li>
+                <li>
+                    <h3 class="title">BackEnd</h3>
+                    <button class="info" onclick="togglePopup16()">
+                        PHP</button><br>
+                    <button class="info" onclick="togglePopup17()">
+                        Python</button><br>
+                    <button class="info" onclick="togglePopup18()">
+                        Ruby</button><br>
+                    <button class="info" onclick="togglePopup19()">
+                        Java</button><br>
+                    <button class="info" onclick="togglePopup20()"> Node
+                        JS</button><br>
+                    <a target="blank" href="https://www.google.com/search?q=BackEnd&sxsrf=ALiCzsYzH28fJgWqHB3iN2Nzbwb5Vti4Rw%3A1656222326195&ei=dvK3YunRC5OTseMP9fasmAw&ved=0ahUKEwjp5K_7tMr4AhWTSWwGHXU7C8MQ4dUDCA4&uact=5&oq=BackEnd&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAFKBAhBGABKBAhGGAFQ9gNY9gNgnQVoAXABeACAAQCIAQCSAQCYAQCgAQKgAQHIAQ3AAQHaAQYIARABGAk&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 4</span>
+                </li>
+                <li>
+                    <h3 class="title">DataBase</h3>
+                    <button class="info" onclick="togglePopup21()">MySQL </button><br>
+                    <button class="info" onclick="togglePopup22()">MongoDB </button><br>
+                    <button class="info" onclick="togglePopup23()">SQLite </button><br>
+                    <button class="info" onclick="togglePopup24()">Apache Ignite </button><br>
+                    <button class="info" onclick="togglePopup25()">Microsoft SQL Server</button><br>
+                    <button class="info" onclick="togglePopup26()">Oracle </button><br>
+                    <a target="blank" href="https://www.google.com/search?q=database+in+web+development&sxsrf=ALiCzsaqTNOE5C7MFPazn1vb8GNO-pYcUA%3A1656222354268&ei=kvK3Yt-GENOeseMP4PerwAY&oq=databse+in+web&gs_lcp=Cgdnd3Mtd2l6EAMYADIECAAQDTIECAAQDTIECAAQDTIECAAQDTIECAAQDTIECAAQDTIECAAQDTIECAAQDTIECAAQDTIGCAAQHhAWOgcIABBHELADOgcIABCwAxBDOg0ILhDHARDRAxCwAxBDOgoIABDkAhCwAxgBOgQIIxAnOgsIABCABBCxAxCDAToFCAAQgAQ6BAgAEEM6CggAELEDEIMBEEM6CAgAEIAEELEDOgUIABCRAjoOCC4QgAQQsQMQxwEQ0QM6CwguEIAEEMcBEKMCOg0IABCABBCHAhCxAxAUOgsILhCABBCxAxCDAToICC4QgAQQsQM6BwgAELEDEEM6DQguELEDEMcBENEDEEM6BwgjELECECc6BwgAELEDEAo6BAgAEAo6BggAEB4QDUoECEEYAEoECEYYAVCUC1iUMGDCNWgBcAF4AIABtAGIAdYUkgEEMC4xOZgBAKABAcgBEcABAdoBBggBEAEYCQ&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 5</span>
+                </li>
+                <li>
+                    <h3 class="title">Other Vital Skills</h3>
+                    <button class="info" onclick="togglePopup27()"> Basics of
+                        Networking</button><br>
+                    <button class="info" onclick="togglePopup28()">
+                        Hosting/Server Administration</button><br>
+                    <button class="info" onclick="togglePopup29()"> Basics of
+                        Cyber Security</button><br>
+                    <a target="blank" href="https://www.google.com/search?q=Other+Vital+Skills+in+web+development&sxsrf=ALiCzsagCiZwHjlQs-0TJJRx4i-IvESojg%3A1656222382544&ei=rvK3YrrfIP2eseMP264c&ved=0ahUKEwi67p6Wtcr4AhV9T2wGHVsXBwAQ4dUDCA4&uact=5&oq=Other+Vital+Skills+in+web+development&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGABKBAhGGABQAFgAYL4BaABwAXgAgAGBAYgBgQGSAQMwLjGYAQCgAQKgAQHAAQE&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 6</span>
+                </li>
+            </ul>
+        </div>
+        <h3 class="heading1"><a href="web3">WEB 3.0 Timeline</a></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

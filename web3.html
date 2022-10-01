@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Timeline</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+    </style>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="public/main.js"></script>
+    <script src="public/script.js"></script>
+</head>
+
+<body style="overflow-x: hidden;">
+    <button class="download"><a target="_blank" href="/web3/download"> Download PDF</a></button>
+    <img class="imgBg" src="/public/solid.png" alt="">
+    <img class="imgBg" id="c6" src="/public/smart.png" alt="">
+    <img class="imgBg" id="c11" src="/public/iot.png" alt="">
+    <img class="imgBg" id="c12" src="/public/eth.png" alt="">
+    <img class="imgBg" id="c8" src="/public/block.png" alt="">
+    <div class="popup" id="blockchain">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup30()">&times;</div>
+            <h1 class="title">Blockchain</h1>
+            <!-- <p>Visual design focuses on the aesthetics of a site and its related materials by strategically
+                implementing images, colors, fonts, and other elements. A successful visual design does not take
+                away from the content on the page or function. Instead, it enhances it by engaging users and
+                helping to build trust and interest in the brand.</p> -->
+            <br><span class="popupRW">READ</span><br>
+            <a target="blank" href="https://www.investopedia.com/terms/b/blockchain.asp">What is blockchain</a><br>
+            <a target="blank" href="https://www.ibm.com/in-en/topics/what-is-blockchain">Blockchain by ibm</a><br>
+            <a target="blank" href="https://github.com/blockchain/">Github Repository</a><br><br>
+            <span class="popupRW">WATCH</span><br>
+            <a target="blank" href=" https://youtu.be/VU59tR982W4">video tutorial</a><br>
+            <span class="tools">
+                <button   id="button29" onclick="myFunction(id)"  class="done">Mark As Done</button>
+               
+            </span>
+        </div>
+    </div>
+    <div class="popup" id="eth">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup31()">&times;</div>
+            <h1 class="title">Ethereum Network</h1>
+            <!-- <p>Visual design focuses on the aesthetics of a site and its related materials by strategically
+                implementing images, colors, fonts, and other elements. A successful visual design does not take
+                away from the content on the page or function. Instead, it enhances it by engaging users and
+                helping to build trust and interest in the brand.</p> -->
+            <br><span class="popupRW">READ</span><br>
+            <a target="blank" href="https://ethereum.org/en/what-is-ethereum/">What is Ethereum</a><br>
+            <a target="blank" href="https://ethereum.org/en/developers/docs/intro-to-ethereum/"> intro to
+                ethereum</a><br>
+            <a target="blank" href="https://ethereum.org/en/developers/docs/">developer docs</a><br>
+            <a target="blank" href="https://github.com/ethereum">Github Repository</a><br><br>
+            <span class="popupRW">WATCH</span><br>
+            <a target="blank" href=" https://youtu.be/4cRXEGduA-o">video tutorial</a><br>
+            <a target="blank" href=" https://youtu.be/uneCaqD6Etk">ethereum tut</a><br>
+            <span class="tools">
+                <button id="button30" onclick="myFunction(id)" class="done">Mark As Done</button>
+               
+            </span>
+        </div>
+    </div>
+    <div class="popup" id="dapp">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup32()">&times;</div>
+            <h1 class="title">DAPP</h1>
+            <!-- <p>Visual design focuses on the aesthetics of a site and its related materials by strategically
+                implementing images, colors, fonts, and other elements. A successful visual design does not take
+                away from the content on the page or function. Instead, it enhances it by engaging users and
+                helping to build trust and interest in the brand.</p> -->
+            <br><span class="popupRW">READ</span><br>
+            <a target="blank" href="https://ethereum.org/en/dapps/#what-are-dapps">What are dapps</a><br>
+            <a target="blank" href="https://www.freecodecamp.org/news/what-is-a-dapp-a-guide-to-ethereum-dapps/">Article
+                on ethereum by freeCodeCamp</a><br><br>
+            <span class="popupRW">WATCH</span><br>
+            <a target="blank" href=" https://youtu.be/3681ZYbDSSk">How to build ethereum dapp</a><br>
+            <span class="tools">
+                <button  id="button31" onclick="myFunction(id)"  class="done">Mark As Done</button>
+             
+            </span>
+        </div>
+    </div>
+    <div class="popup" id="solidity">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup34()">&times;</div>
+            <h1 class="title">Solidity</h1>
+            <!-- <p>Visual design focuses on the aesthetics of a site and its related materials by strategically
+                implementing images, colors, fonts, and other elements. A successful visual design does not take
+                away from the content on the page or function. Instead, it enhances it by engaging users and
+                helping to build trust and interest in the brand.</p> -->
+            <br><span class="popupRW">READ</span><br>
+            <a target="blank" href="https://docs.soliditylang.org/en/latest/">What is solidity</a><br>
+            <a target="blank" href="https://github.com/ethereum/solidity">Github Repository</a><br>
+            <a target="blank" href="https://www.tutorialspoint.com/solidity/index.htm">Solidity tutorial by
+                tutorialspoint</a><br><br>
+            <span class="popupRW">WATCH</span><br>
+            <a target="blank" href=" https://youtu.be/gsaapL1SEqg">Solidity full course(Hindi)</a><br>
+            <a target="blank" href=" https://youtu.be/M576WGiDBdQ">A link to course teaching solidity, block chain,
+                smart contracts using python</a><br>
+            <span class="tools">
+                <button  id="button32" onclick="myFunction(id)" class="done">Mark As Done</button>
+     
+            </span>
+        </div>
+    </div>
+    <div class="popup" id="contracts">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup33()">&times;</div>
+            <h1 class="title">Smart Contracts</h1>
+            <!-- <p>Visual design focuses on the aesthetics of a site and its related materials by strategically
+                implementing images, colors, fonts, and other elements. A successful visual design does not take
+                away from the content on the page or function. Instead, it enhances it by engaging users and
+                helping to build trust and interest in the brand.</p> -->
+            <br><span class="popupRW">READ</span><br>
+            <a target="blank" href="https://www.investopedia.com/terms/s/smart-contracts.asp">What is smart
+                contracts</a><br>
+            <a target="blank" href="https://ethereum.org/en/smart-contracts/"> Smart contracts by ethereum </a><br>
+            <a target="blank" href="https://ethereum.org/en/developers/docs/smart-contracts/">Docs on smart
+                contracts</a><br><br>
+            <span class="popupRW">WATCH</span><br>
+            <a target="blank" href="https://youtu.be/ZE2HxTmxfrI"> Smart contracts explained simply</a><br>
+            <span class="tools">
+                <button  id="button33" onclick="myFunction(id)"  class="done">Mark As Done</button>
+     
+            </span>
+        </div>
+    </div>
+    <div class="main">
+        <!-- <div class="imgComp"><img src="comp.png" alt=""></div> -->
+        <h3 class="heading">WEB 3.0 Timeline</h3>
+        <div class="container">
+            <ul>
+                <li>
+                    <h3 class="title">Prerequisite</h3>
+                    <p>Frontend(HTML, CSS, JAVASCRIPT)</p>
+                    <p>Basic Javascript Framework like React, Vuejs, etc. One is enough.</p>
+                    <p>Little of Backend(If you don’t know, you can learn in the web3 journey)</p>
+                    <a target="blank" href="basic.html">Read More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 1</span>
+                </li>
+                <li>
+                    <button class="info" onclick="togglePopup30()">
+                        <h3 class="title">Blockchain</h3>
+                    </button>
+                    <button class="info" onclick="togglePopup30()">Blockchain technology forms the base for the web3
+                        application. You need to understand its concept, implementation, and working to start your web3
+                        journey.</button>
+                    <a target="blank" href="https://www.google.com/search?q=what+is+blockchain&sxsrf=ALiCzsZ3w5ZDmuAwetIvbD1r_Z8jBmF5sw%3A1656222403342&ei=w_K3YozIFJqUseMPoKG64AY&oq=what+is+Blockchain&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCAAQRxCwAzoKCAAQ5AIQsAMYAToECAAQQzoFCAAQkQI6CwgAEIAEELEDEIMBOgoIABCxAxCDARBDSgQIQRgASgQIRhgBUJYFWKwQYPUcaAFwAXgAgAHBAYgBzQmSAQMwLjmYAQCgAQGgAQLIAQ3AAQHaAQYIARABGAk&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 2</span>
+                </li>
+                <li>
+                    <button class="info" onclick="togglePopup31()">
+                        <h3 class="title">Ethereum Network</h3>
+                    </button>
+                    <button class="info" onclick="togglePopup31()">Bitcoin is used for currency while the Ethereum
+                        network can deal with much variety of
+                        transactions. Learn a little bit about Ethereum technology.</button>
+                    <a target="blank" href="https://www.google.com/search?q=what+is+Ethereum+Network&sxsrf=ALiCzsYHHuSXZ3FAZORswwtHAnSUjtaqwA%3A1656222478658&ei=DvO3YovcJ8qaseMPk9-a0AU&ved=0ahUKEwiLm4nEtcr4AhVKTWwGHZOvBloQ4dUDCA4&uact=5&oq=what+is+Ethereum+Network&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBY6BwgAEEcQsAM6BwgAELADEEM6CggAEOQCELADGAE6DAguEMgDELADEEMYAjoPCC4Q1AIQyAMQsAMQQxgCSgQIQRgASgQIRhgBUO4BWO4BYPsDaAFwAXgAgAGwAYgBsAGSAQMwLjGYAQCgAQKgAQHIARHAAQHaAQYIARABGAnaAQYIAhABGAg&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 3</span>
+                </li>
+                <li>
+                    <button class="info" onclick="togglePopup32()">
+                        <h3 class="title">DAPP</h3>
+                    </button>
+                    <button class="info" onclick="togglePopup32()">Decentralized applications are those applications
+                        that run on a peer-to-peer(P2P) blockchain
+                        network. These are the web3 application that we build using different stacks.</button>
+                    <a target="blank" href="https://www.google.com/search?sxsrf=ALiCzsaQiUEUw19QiPGTc5ygJ4PzH8jexA:1656222504002&q=what+is+DAPP+in+blockchain&spell=1&sa=X&ved=2ahUKEwiXj5TQtcr4AhUmR2wGHRv2AC8QirwEKAB6BAgCEDI&biw=683&bih=624&dpr=1">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 4</span>
+                </li>
+                <li>
+                    <button class="info" onclick="togglePopup33()">
+                        <h3 class="title">Smart Contracts</h3>
+                    </button>
+                    <button class="info" onclick="togglePopup33()">Smart contracts are computer programs that are
+                        non-modifiable once deployed, automatically
+                        executed when the criteria defined in it meet.</button>
+                    <a target="blank" href="https://www.google.com/search?q=what+is+Smart+Contracts&biw=683&bih=624&sxsrf=ALiCzsYKnQwmQR35yaY0D_DIkUiKRZpn7w%3A1656222507183&ei=K_O3YqXWCreNseMPke6myAo&ved=0ahUKEwjll9bRtcr4AhW3RmwGHRG3CakQ4dUDCA4&uact=5&oq=what+is+Smart+Contracts&gs_lcp=Cgdnd3Mtd2l6EAMyCggAEIAEEIcCEBQyBQgAEIAEMgUIABCABDIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWOgcIABBHELADOgcIABCwAxBDOgoIABDkAhCwAxgBSgQIQRgASgQIRhgBUK8UWK8UYP5JaANwAXgAgAF6iAF6kgEDMC4xmAEAoAECoAEByAERwAEB2gEGCAEQARgJ&sclient=gws-wiz">Read
+                        More ></a>\
+                    <span class="circle"></span>
+                    <span class="date">Step 5</span>
+                </li>
+                <li>
+                    <button class="info" onclick="togglePopup34()">
+                        <h3 class="title">Solidity</h3>
+                    </button>
+                    <button class="info" onclick="togglePopup34()">You can write smart contracts in different
+                        programming languages such as solidity, rust, yul, and
+                        others. Solidity is the most popular and efficient when comes to smart contracts.</button>
+                    <a target="blank" href="https://www.google.com/search?q=Solidity&biw=683&bih=624&sxsrf=ALiCzsaDnR8yuczcsjjRI8_QLNcGuxIYvQ%3A1656222529455&ei=QfO3Yu-uG9GNseMPw5u_-Ac&ved=0ahUKEwiv06Xctcr4AhXRRmwGHcPND38Q4dUDCA4&uact=5&oq=Solidity&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEJECMgcIABCxAxBDMgQIABBDMgQIABBDMgUIABCRAjIHCAAQsQMQQzIHCAAQsQMQQzIFCAAQgAQyCAgAEIAEELEDMgsIABCABBCxAxCDAToHCAAQRxCwAzoHCAAQsAMQQzoKCAAQ5AIQsAMYAUoECEEYAEoECEYYAVDSA1jSA2DLCGgBcAF4AIABjwGIAY8BkgEDMC4xmAEAoAECoAEByAERwAEB2gEGCAEQARgJ&sclient=gws-wiz">Read
+                        More ></a>
+                    <span class="circle"></span>
+                    <span class="date">Step 6</span>
+                </li>
+            </ul>
+        </div>
+        <h3 class="heading1">WEB 4.0 Timeline</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
